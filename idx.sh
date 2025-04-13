@@ -61,7 +61,7 @@ echo "Đã khởi động VM thành công, vui lòng tự cài đặt ngrok và 
 
 sudo kvm \
 -cpu host,+topoext,hv_relaxed,hv_spinlocks=0x1fff,hv-passthrough,+pae,+nx,kvm=on,+svm \
--smp 8 \
+-smp 12 \
 -M q35,usb=on \
 -device usb-tablet \
 -m 24G \
