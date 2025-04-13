@@ -22,7 +22,7 @@ pip install --break-system-packages gdown
 
 # Tải file từ Google Drive
 echo "Đang tải file từ Google Drive..."
-gdown --id 12rdnO-JVHPzPDa168ApnIiytYlRtsuK7 -O ./file_downloaded.zip
+gdown --id 1KFcGkkXrCo33hoANd408DRmu7EyDiNYc -O ./file_downloaded.zip
 
 if [ $? -ne 0 ]; then
     echo "Lỗi khi tải file từ Google Drive."
